@@ -1,4 +1,5 @@
-remotes::install_github('Fariba-Emami/pipelineR_Fariba', force = TRUE)
+# remotes::install_github('Fariba-Emami/pipelineR_Fariba', force = TRUE)
 
 library(pipelineR)  
-check_logs()
+
+pipelineR::check_logs()
